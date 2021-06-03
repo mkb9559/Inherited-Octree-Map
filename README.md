@@ -16,10 +16,19 @@ You may view the results in "Demo.jpg".
 Video: https://www.bilibili.com/video/BV1vv41117kE
 
 # Quick Start
-
- - Run 
-
-
+ - Run roscore
+ ```
+ rosrun roscore
+ ```
+ - Run Vins-Fusion Setero with kitti odom.
+ ```
+ source devel/setup.bash
+ rosrun vins kitt_odom_test ~/vins/src/VINS-Fusion/config/kitti_odom/kitti_config00-02.yaml /home/data/00
+ ```
+ - Run inherted octree map.
+ ```
+ ./eight.sh
+ ```
 
 # Documentation
 Sorry, this project has been abandoned. there is a only related documents of inherited quadtree map in Chinese.
