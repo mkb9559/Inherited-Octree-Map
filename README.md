@@ -7,7 +7,7 @@ The project was developed and tested on **Ubuntu16.04** with **ROS Kinetic**. So
  - ROS Kinetic: http://wiki.ros.org/kinetic/Installation
  - Pangolin: https://github.com/stevenlovegrove/Pangolin. Download and install it.
  - Vins-Fusion: https://github.com/HKUST-Aerial-Robotics/VINS-Fusion. You need clone this VIO project to generate points cloud. Of course, other method can also be used with some modifications of this source code.
- - Kitti Database. Download it for Vins-Fusion 
+ - Kitti Visual Odometry: http://www.cvlibs.net/datasets/kitti/eval_odometry.php. Download it for Vins-Fusion. Please download: **odometry data set (grayscale, 22 GB)**
 
 
 # Preview
@@ -25,6 +25,7 @@ Video: https://www.bilibili.com/video/BV1vv41117kE
  source devel/setup.bash
  rosrun vins kitt_odom_test ~/vins/src/VINS-Fusion/config/kitti_odom/kitti_config00-02.yaml /home/data/00
  ```
+ You may refer https://github.com/HKUST-Aerial-Robotics/VINS-Fusion for the usage.
  - Run inherted octree map.
  ```
  ./eight.sh
