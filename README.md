@@ -2,6 +2,7 @@
 This is a C++ project, which can build a octree map with the inherited connection relationship in **real-time**.
 
 The project was developed and tested on **Ubuntu16.04** with **ROS Kinetic**. Some modifications may required in other platforms.
+![image](https://github.com/mkb9559/Inherited-Octree-Map/blob/main/Demo.jpg)
 
 # Requirement
  - ROS Kinetic: http://wiki.ros.org/kinetic/Installation
