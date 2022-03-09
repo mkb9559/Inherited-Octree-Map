@@ -33,6 +33,6 @@ Video: https://www.bilibili.com/video/BV1vv41117kE
  ```
 
 # Documentation
-Sorry, this project has been abandoned. there is a only related documents of inherited quadtree map in Chinese.
+This project has been abandoned. There is an only related document of inherited quadtree map in Chinese.
 
 https://blog.csdn.net/mkb9559/article/details/88050850
