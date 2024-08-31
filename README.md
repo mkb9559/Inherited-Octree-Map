@@ -32,7 +32,3 @@ Video: https://www.bilibili.com/video/BV1vv41117kE
  ./eight.sh
  ```
 
-# Documentation
-This project has been abandoned. There is an only related document of inherited quadtree map in Chinese.
-
-https://blog.csdn.net/mkb9559/article/details/88050850
